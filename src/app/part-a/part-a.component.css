@@ -1,0 +1,91 @@
+.part-a {
+  display: flex;
+  position: relative;
+}
+.left-screen {
+  width: 120%;
+  background-color: #4831d4;
+}
+.name {
+  color: #ccf381;
+  font-family: fantasy;
+  font-size: 50px;
+  height: 40px;
+  padding: 60px;
+}
+.lineUp {
+  animation: 2s anim-lineUp ease-out;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.bg {
+  background-color: #4831d4;
+}
+.role {
+  color: #ccf381;
+  font-family: fantasy;
+  font-size: 85px;
+  padding: 55px;
+  padding-left: 165px;
+}
+.description {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 165px;
+}
+.objective {
+  color: #a4d292;
+  font-size: 16px;
+  width: 45%;
+  line-height: 22px;
+  padding-left: 165px;
+  padding-top: 80px;
+  padding-bottom: 61px;
+}
+.right-screen {
+  width: 30%;
+  background-color: #ccf381;
+}
+.profile-photo {
+  width: 275px;
+  border-radius: 1%;
+  position: absolute;
+  top: 185px;
+  right: 85px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.buttons {
+  width: 30%;
+  display: flex;
+  margin-left: 220px;
+  margin-top: 185px;
+  flex-direction: column;
+}
+.homeIcon {
+  width: 40px;
+  cursor: pointer;
+}
+.contactIcon {
+  width: 40px;
+  cursor: pointer;
+}
+.buttons div {
+    margin-bottom: 30%;
+}

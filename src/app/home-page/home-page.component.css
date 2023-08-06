@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+.partA {
+  display: flex;
+  position: relative;
+  background-color: #ccf381;
+}
+.buttons {
+  position: absolute;
+  right: 6%;
+  width: 10%;
+  display: flex;
+  margin-top: 185px;
+  flex-direction: column;
+}
+.homeIcon {
+  width: 40px;
+  cursor: pointer;
+}
+.contactIcon {
+  width: 40px;
+  cursor: pointer;
+}
+.buttons div {
+  margin-bottom: 30%;
+}
